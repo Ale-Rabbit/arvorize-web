@@ -1,20 +1,159 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
-	
-	<meta charset="utf-8">
+  
+  <title>Arvorize</title>
 
-	<title>Arvorize</title>
+  <meta charset="utf-8">
+
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- FontAwesome -->
+
+  <!-- Font -->
 
 </head>
 
 <body>
-	
-<h1>Hello!</h1>
 
+	<!-- Jssor -->
+    <script src="js/jssor.slider-26.1.5.min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: 0,
+              $DragOrientation: 2,
+              $PlayOrientation: 2,
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$,
+                $Orientation: 2
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    
+    <style>
+
+        /* jssor slider loading skin spin css */
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .jssorb031 {position:absolute;}
+        .jssorb031 .i {position:absolute;cursor:pointer;}
+        .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+        .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+        .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+        .jssorb031 .i.idn {opacity:.3;}
+        
+    </style>
+    
+    <div id="jssor_1">
+
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" >
+            <img src="img/spin.svg" />
+        </div>
+
+        <div class="div-img" data-u="slides">
+            
+            <div>
+                <img data-u="image" src="img/002.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/003.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/004.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/005.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/006.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/007.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/008.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/009.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/010.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/011.jpg" />
+            </div>
+            <a data-u="any" href="https://www.jssor.com"  >html slideshow</a>
+        </div>
+
+        <!-- Bullet Navigator -->
+
+        <div data-u="navigator" class="jssorb031" data-autocenter="2" data-scale="0.5" data-scale-right="0.75">
+            <div data-u="prototype" class="i">
+                <svg class="svg-circle" viewbox="0 0 16000 16000">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    <!-- #endregion Jssor Slider End -->
 </body>
-
-
 
 </html>
