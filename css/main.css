@@ -1,70 +1,129 @@
-body{
-	padding: 0px;
-	margin: 0px;
+html, body{
+    width:100%;
+    height:100%;
+    /*background-color:#000000;*/
+    text-align: center;
 }
 
+/*------------------------------ Intro ----------------------------*/
 
-/*INTRO*/
 
-#jssor_1{
-	position: relative;
-	margin: 0 auto;
-	top:0px;
-	left:0px;
-	width:980px;
-	height:380px;
-	overflow:hidden;
-	visibility: hidden;
+header {
+    max-width: 100%;
+    height: 650px;
 }
 
-.jssorl-009-spin{
-	position:absolute;
-	top:0px;
-	left:0px;
-	width:100%;
-	height:100%;
-	text-align:center;
-	background-color:rgba(0,0,0,0.7);
+.carousel-inner,.carousel,.item,.container,.fill {
+  height:100%;
+  width:100%;
+  background-position:center center;
+  background-size:cover;
 }
 
-img{
-	margin-top:-19px;
-	position:relative;
-	top:50%;
-	width:38px;
-	height:38px;
+.slide-wrapper{
+	display:inline;
 }
 
-a{
-	display:none;
+.slide-wrapper .container{
+	padding:0px;
 }
 
-.div-img{
-	cursor:default;
-	position:relative;
-	top:0px;
-	left:0px;
-	width:980px;
-	height:380px;
-	overflow:hidden;
+/* vertical bootstrap slider */
+
+.carousel-inner > .item.next ,  .carousel-inner > .item.active.right{ 
+	transform: translate3d(0, 100%, 0);
+	-webkit-transform: translate3d(0, 100%, 0); 
+	-ms-transform: translate3d(0, 100%, 0); 
+	-moz-transform: translate3d(0, 100%, 0); 
+	-o-transform: translate3d(0, 100%, 0);  
+	top: 0;
 }
 
-.jssorb031{
-	position:absolute;
-	bottom:12px;
-	right:12px;
+.carousel-inner > .item.prev ,.carousel-inner > .item.active.left{ 
+	transform: translate3d(0,-100%, 0); 
+	-webkit-transform: translate3d(0,-100%, 0);  
+	-moz-transform: translate3d(0,-100%, 0);
+	-ms-transform: translate3d(0,-100%, 0);
+	 -o-transform: translate3d(0,-100%, 0); 
+	 top: 0;
 }
 
-.i{
-	width:12px;
-	height:12px;
+.carousel-inner > .item.next.left , .carousel-inner > .item.prev.right , .carousel-inner > .item.active{
+	transform:translate3d(0,0,0); 
+	-webkit-transform:translate3d(0,0,0);
+	-ms-transform:translate3d(0,0,0); 
+	-moz-transform:translate3d(0,0,0); 
+	-o-transform:translate3d(0,0,0); 
+	top:0;
 }
 
-.svg-circle{
+/* vertical carousel indicators */
+
+.carousel-indicators{
 	position:absolute;
 	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+	bottom:0;
+	margin:auto;
+	height:20px;
+	right:10px; 
+	left:auto;
+	width:auto;
 }
 
+.carousel-indicators li{
+	display:block; 
+	margin-bottom:5px; 
+	border:1px solid #000000; 
+}
+
+.carousel-indicators li.active{
+	margin-bottom:5px; 
+	background:#000000;
+}
+
+/* first intro */
+
+/* second intro */
+.hot-fill {
+    margin-top: 120px;
+}
+
+.hot-desc{
+    width: 500px;
+    height: auto;
+    margin-right: 100px;
+}
+
+/* third intro */
+
+.learn-desc{
+	margin: 20% auto auto 37%;
+    position: absolute;
+}
+
+/* fourth intro */
+
+.donate-desc{
+	position: absolute;
+	margin-left: 36%;
+}
+
+/* fiveth intro */
+
+.find-desc{
+	position: absolute;
+    font-size: 30px;
+    width: 150px;
+    height: 135px;
+    margin-left: 48%;
+    margin-top: 12%;
+    color: azure;
+}
+
+/* sixth intro */
+
+/*------------------------------ App ----------------------------*/
+
+/*------------------------------ Map ----------------------------*/
+
+/*------------------------------ Footer ----------------------------*/

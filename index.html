@@ -1,159 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-  
-  <title>Arvorize</title>
 
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 
-  <!-- Mobile Specific Meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
 
-  <!-- FontAwesome -->
 
-  <!-- Font -->
-
+	<title>Vertical</title>
 </head>
 
 <body>
 
-	<!-- Jssor -->
-    <script src="js/jssor.slider-26.1.5.min.js" type="text/javascript"></script>
-    
-    <script type="text/javascript">
-        jssor_1_slider_init = function() {
+<!-- ========================== Intro ========================== -->
 
-            var jssor_1_options = {
-              $AutoPlay: 0,
-              $DragOrientation: 2,
-              $PlayOrientation: 2,
-              $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$,
-                $Orientation: 2
-              }
-            };
+<header id="intro">
+	<section class="slide-wrapper">
+		<div class="container">
+			<div id="myCarousel" class="carousel slide">
 
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+			  <!-- Indicators -->
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="1"></li>
+			      <li data-target="#myCarousel" data-slide-to="2"></li>
+			      <li data-target="#myCarousel" data-slide-to="3"></li>
+			      <li data-target="#myCarousel" data-slide-to="4"></li>
+			      <li data-target="#myCarousel" data-slide-to="5"></li>
+			    </ol>
 
-            /*#region responsive code begin*/
+			    <!-- Wrapper for slides -->
+			    <div class="carousel-inner">
 
-            var MAX_WIDTH = 980;
+			      <div class="item active">
+			        <div class="fill">
+			        	<!-- passar para svg  -->
+			        	<img src="img/yard.png">
+			        	<h1>Arvorize<br/>Uma plataforma para estimular a arborização de áreas urbanas</h1>
+			        </div>
+			      </div>
 
-            function ScaleSlider() {
-                var containerElement = jssor_1_slider.$Elmt.parentNode;
-                var containerWidth = containerElement.clientWidth;
+			      <div class="item">
+			        <div class="fill hot-fill">
+			        	<div>
+			        		<h2 class="hot-desc col-md-6" >Ilhas de calor afetam centros urbanos causando desconforto térmico</h2>
+			        		<img class="hot-img col-md-6" src="img/city-hot.jpeg">
+			        	</div>
+			        </div>
+			      </div>
 
-                if (containerWidth) {
+			      <div class="item">
+			        <div class="fill">
+			        <h1 class="learn-desc">Não sabe plantar?<br/>aprenda com tutoriais</h1>
+			        <img class="learn-img" src="img/sala-de-aula.jpg">
+			        </div>
+			      </div>
 
-                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+			      <div class="item">
+			        <div class="fill">
+			        	<h1 class="donate-desc">Pratique a solidariedade</h1>
+			        	<img src="img/doar.jpg">
+			        </div>
+			      </div>
 
-                    jssor_1_slider.$ScaleWidth(expectedWidth);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
+			      <div class="item">
+			        <div class="fill">
+			        	<h1 class="find-desc">Encontre árvores e locais para plantar</h1>
+			        	<img src="img/mapa.jpg">
+			        </div>
+			      </div>
 
-            ScaleSlider();
+			      <div class="item">
+			        <div class="fill">
+			        	<h1>Ganhe pontos e suba de níveis</h1>
+			        	<img src="img/podio.jpg">
+			        </div>
+			      </div>
 
-            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-            /*#endregion responsive code end*/
-        };
-    </script>
-    
-    <style>
+			    </div>
+			</div>
+		</div>
+	</section>
+</header>
 
-        /* jssor slider loading skin spin css */
-        .jssorl-009-spin img {
-            animation-name: jssorl-009-spin;
-            animation-duration: 1.6s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
+<!-- ========================== App ========================== -->
+<section id="app">
 
-        @keyframes jssorl-009-spin {
-            from {
-                transform: rotate(0deg);
-            }
+</section>
 
-            to {
-                transform: rotate(360deg);
-            }
-        }
+<!-- ==========================  Map ========================== -->
+<section>
+	
+</section>
 
-        .jssorb031 {position:absolute;}
-        .jssorb031 .i {position:absolute;cursor:pointer;}
-        .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
-        .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
-        .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
-        .jssorb031 .i.idn {opacity:.3;}
-        
-    </style>
-    
-    <div id="jssor_1">
+<!-- ==========================  Footer ========================== -->
+<footer id="finishing">
+	
+</footer>
 
-        <!-- Loading Screen -->
-        <div data-u="loading" class="jssorl-009-spin" >
-            <img src="img/spin.svg" />
-        </div>
+<!-- ========================== JavaScript ========================== -->
 
-        <div class="div-img" data-u="slides">
-            
-            <div>
-                <img data-u="image" src="img/002.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="img/003.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="img/004.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="img/005.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="img/006.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="img/007.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="img/008.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="img/009.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="img/010.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="img/011.jpg" />
-            </div>
-            <a data-u="any" href="https://www.jssor.com"  >html slideshow</a>
-        </div>
+<!-- jQuery -->
+<script src="js/jquery-1.11.1.min.js"></script> 
 
-        <!-- Bullet Navigator -->
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script> 
 
-        <div data-u="navigator" class="jssorb031" data-autocenter="2" data-scale="0.5" data-scale-right="0.75">
-            <div data-u="prototype" class="i">
-                <svg class="svg-circle" viewbox="0 0 16000 16000">
-                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
-                </svg>
-            </div>
-        </div>
-    </div>
-    
-    <script type="text/javascript">jssor_1_slider_init();</script>
-    <!-- #endregion Jssor Slider End -->
+<script src="js/main.js"></script> 
+
 </body>
 
 </html>
