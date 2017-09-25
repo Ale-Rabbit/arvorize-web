@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -16,8 +16,15 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- Title font "font-family: 'Josefin Slab', serif;" -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 
-	<title>Vertical</title>
+    <!-- Text font "font-family: 'Josefin Sans', sans-serif;" -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+
+
+	<title>Arvorize</title>
 </head>
 
 <body>
@@ -25,6 +32,7 @@
 <!-- ========================== Intro ========================== -->
 
 <header id="intro">
+	
 	<section class="slide-wrapper">
 		<div class="container">
 			<div id="myCarousel" class="carousel slide">
@@ -43,10 +51,17 @@
 			    <div class="carousel-inner">
 
 			      <div class="item active">
+
 			        <div class="fill">
-			        	<!-- passar para svg  -->
-			        	<img src="img/yard.png">
-			        	<h1>Arvorize<br/>Uma plataforma para estimular a arborização de áreas urbanas</h1>
+			        	<div class="container header-phone">
+			        		<img class="phone-img-header" src="img/header-phone.png">
+
+			        		<img class="logo-img" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojNjc4QzU2O30NCgkuc3Qxe2ZpbGw6I0I4RDc5Nzt9DQo8L3N0eWxlPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTE1OS4zLDEwNC4zYy01Ny43LDAtMTA0LjUsNDYuOC0xMDQuNSwxMDQuNUM1NC43LDMzMi40LDI1Niw1MDMuNiwyNTYsNTAzLjZsMjEuOC0xNjcuMkwyNTYsMTY5LjINCglDMjQwLjQsMTMxLjEsMjAzLDEwNC4zLDE1OS4zLDEwNC4zeiIvPg0KPHBhdGggY2xhc3M9InN0MSIgZD0iTTM1Mi43LDEwNC4zYy00My43LDAtODEuMSwyNi44LTk2LjcsNjQuOWwwLDMzNC40YzAsMCwyMDEuMy0xNzEuMSwyMDEuMy0yOTQuNw0KCUM0NTcuMywxNTEuMSw0MTAuNSwxMDQuMywzNTIuNywxMDQuM3oiLz4NCjxwYXRoIGQ9Ik0zNTIuNyw5Ni40Yy0zNS4yLDAtNjcuNiwxNi4yLTg4LjYsNDIuOVY4LjJjMC00LjUtMy43LTguMi04LjItOC4yYy00LjUsMC04LjIsMy43LTguMiw4LjJ2MTMxLjINCgljLTIxLTI2LjctNTMuMy00Mi45LTg4LjYtNDIuOUM5Ny4xLDk2LjQsNDYuNiwxNDcsNDYuNiwyMDkuMWMwLDUzLjMsMzQuNSwxMjAuMiwxMDIuNiwxOTljNTAuMSw1OCwxMDEsMTAxLjUsMTAxLjUsMTAxLjkNCgljMS41LDEuMywzLjQsMS45LDUuMywxLjljMS45LDAsMy44LTAuNiw1LjMtMS45YzAuNS0wLjQsNTEuNC00My45LDEwMS41LTEwMS45YzY4LjEtNzguOCwxMDIuNi0xNDUuOCwxMDIuNi0xOTkNCglDNDY1LjQsMTQ3LDQxNC45LDk2LjQsMzUyLjcsOTYuNHogTTI1Niw0OTNDMjI0LjQsNDY1LDYyLjksMzE2LjUsNjIuOSwyMDkuMWMwLTUzLjEsNDMuMi05Ni40LDk2LjQtOTYuNGMzNy40LDAsNzEsMjEuNCw4Nyw1NC45DQoJTDExNi4yLDI5Ny43Yy0zLjIsMy4yLTMuMiw4LjQsMCwxMS42YzMuMiwzLjIsOC40LDMuMiwxMS42LDBsMTIwLjEtMTIwLjF2MTM2LjZsLTYyLjUsNjIuNWMtMy4yLDMuMi0zLjIsOC40LDAsMTEuNg0KCWMzLjIsMy4yLDguNCwzLjIsMTEuNiwwbDUwLjktNTAuOXYxMTFjMCw0LjUsMy43LDguMiw4LjIsOC4yYzQuNSwwLDguMi0zLjcsOC4yLTguMlYzNDguOWw1MC45LDUwLjljMS42LDEuNiwzLjcsMi40LDUuOCwyLjQNCglzNC4yLTAuOCw1LjgtMi40YzMuMi0zLjIsMy4yLTguNCwwLTExLjZsLTYyLjQtNjIuNFYxODkuMmwxMjAuMSwxMjAuMWMxLjYsMS42LDMuNywyLjQsNS44LDIuNGMyLjEsMCw0LjItMC44LDUuOC0yLjQNCgljMy4yLTMuMiwzLjItOC40LDAtMTEuNkwyNjUuOCwxNjcuNmMxNi0zMy41LDQ5LjUtNTQuOSw4Ny01NC45YzUzLjEsMCw5Ni40LDQzLjIsOTYuNCw5Ni40QzQ0OS4xLDMxNi41LDI4Ny42LDQ2NSwyNTYsNDkzeiIvPg0KPC9zdmc+DQo=">
+
+			        		<h1 class="header-desc">Arvorize<br/>Uma plataforma para estimular a arborização de áreas urbanas</h1>
+
+			        	</div>
+	        	
 			        </div>
 			      </div>
 
