@@ -72,6 +72,33 @@ header {
 	top:0;
 }
 
+
+#item-first{
+	background-color:#678c56;
+}
+
+#item-second{
+	background-color:#ffaa90;
+}
+
+#item-third{
+	background-color:#b7ce93;
+}
+
+#item-fourth{
+	background-color:#f59b99;
+}
+
+#item-fiveth{
+	background-color:#8cb9a2;
+}
+
+#item-sixth{
+	background-color:#9a88aa;
+}
+
+
+
 /* vertical carousel indicators */
 
 .carousel-indicators{
@@ -121,7 +148,8 @@ h1.header-desc {
     height: 120px;
     text-align: center;
     position: absolute;
-    margin-left: 40%;
+    margin: 18% 0% 0% 40%;
+    color:#fff;
 }
 
 /* second intro */
