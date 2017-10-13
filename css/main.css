@@ -20,8 +20,9 @@ p{
 
 header {
     max-width: 100%;
-    height: 650px;
+    height: 100%;
 }
+
 
 #myCarousel {
     background: url(img/bg.jpg) no-repeat fixed;
@@ -154,20 +155,34 @@ h1.header-desc {
 
 /* second intro */
 .hot-fill {
-    margin-top: 120px;
+    
 }
 
 .hot-desc{
     width: 500px;
     height: auto;
-    margin-right: 100px;
+    margin:15% auto auto 6%;
+    float: left;
+}
+
+.hot-img{
+	margin-top: 7%;
+    margin-right: 5%;
+    float: right;
 }
 
 /* third intro */
 
 .learn-desc{
-	margin: 20% auto auto 37%;
+	margin: 16% 0% 0% 37%;
     position: absolute;
+    z-index: 1;
+    color: #fff;
+}
+
+.learn-img {
+    position: absolute;
+    margin: 0% 0% 0% -22%;
 }
 
 /* fourth intro */
