@@ -174,7 +174,7 @@ h1.header-desc {
 /* third intro */
 
 .learn-desc{
-	margin: 16% 0% 0% 37%;
+	margin: 16% 0% 0% 39%;
     position: absolute;
     z-index: 1;
     color: #fff;
@@ -182,7 +182,15 @@ h1.header-desc {
 
 .learn-img {
     position: absolute;
-    margin: 0% 0% 0% -22%;
+    margin: 0% 0% 0% 30%;
+}
+
+img#branch-l {
+    float: left;
+}
+
+img#branch-r {
+    float: right;
 }
 
 /* fourth intro */
