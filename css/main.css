@@ -197,7 +197,8 @@ img#branch-r {
 
 .donate-desc{
 	position: absolute;
-	margin-left: 36%;
+	margin-left: 38%;
+	color: #fff;
 }
 
 .donate-img{
@@ -210,6 +211,11 @@ img#branch-r {
 
 .mao-r{
 	float: right;
+}
+
+.fruit-img{
+	position: absolute;
+    margin: 5% 0% 0% -32%;
 }
 
 /* fiveth intro */
