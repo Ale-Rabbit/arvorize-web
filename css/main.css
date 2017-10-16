@@ -220,14 +220,23 @@ img#branch-r {
 
 /* fiveth intro */
 
-.find-desc{
+.map-div-desc{
+	width: 100%;
+	height: 70px;
 	position: absolute;
-    font-size: 30px;
-    width: 150px;
-    height: 135px;
-    margin-left: 48%;
-    margin-top: 12%;
-    color: azure;
+	background-color: green;
+}
+
+.find-desc{
+	margin: -10% 0% 0% 25%;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.map-img{
+	margin: -16% 0% 0% 14%;
 }
 
 /* sixth intro */
