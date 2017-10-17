@@ -92,6 +92,8 @@ header {
 
 #item-fiveth{
 	background-color:#8cb9a2;
+	text-align: center;
+    align-items: center;
 }
 
 #item-sixth{
@@ -159,15 +161,14 @@ h1.header-desc {
 }
 
 .hot-desc{
-    width: 500px;
+    max-width: 500px;
     height: auto;
     margin:15% auto auto 6%;
     float: left;
 }
 
 .hot-img{
-	margin-top: 7%;
-    margin-right: 5%;
+	margin: 5% 5% 0% 0%;
     float: right;
 }
 
@@ -222,24 +223,36 @@ img#branch-r {
 
 .map-div-desc{
 	width: 100%;
-	height: 70px;
-	position: absolute;
-	background-color: green;
+    height: 70px;
+    position: absolute;
+    background-color: rgba(62, 80, 71, 0.36);
+    margin-top: -33%;
+    vertical-align: middle;
 }
 
-.find-desc{
-	margin: -10% 0% 0% 25%;
-    position: absolute;
+.find-desc{/
     font-size: 50px;
     font-weight: bold;
-    color: black;
+    color: #000000;
 }
 
 .map-img{
-	margin: -16% 0% 0% 14%;
+	margin: -17% 0% 0% 14%;
 }
 
 /* sixth intro */
+
+.trophy-img{
+	float: left;
+}
+
+img.podium-img {
+    margin-top: 15%;
+}
+
+h1.trophy-desc {
+    margin: 0% 3% 0% 0%;
+}
 
 /*------------------------------ App ----------------------------*/
 
