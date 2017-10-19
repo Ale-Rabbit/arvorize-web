@@ -6,6 +6,7 @@ html, body{
     text-align: center;
 }
 
+
 h1, h2, h3, p{
 	font-family: 'Josefin Slab', serif;
 }
@@ -250,6 +251,44 @@ h1.trophy-desc {
 }
 
 /*------------------------------ App ----------------------------*/
+
+.slogan{
+	background-color:#B8D797;
+	padding-top:5%;
+	padding-bottom:8%;
+	border-top:6px solid rgba(51, 51, 51, 0.35);
+}
+
+.info-container .info {
+	padding:5%;
+}
+
+.info-container.left{
+	margin-top:15%;
+	padding-bottom:5%;
+}
+
+.info-container.right{
+	margin-top:25%;
+}
+
+.div-Template{
+	margin-top:-5%
+}
+
+.template-img{
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+
+.jumbotron .first{
+	background-color: #678c56;
+}
+
+.jumbotron .second{
+	background-color: #B8D797;
+}
 
 /*------------------------------ Map ----------------------------*/
 
