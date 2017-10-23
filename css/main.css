@@ -31,12 +31,6 @@ header {
     height: 100%;
 }
 
-
-#myCarousel {
-    background: url(img/bg.jpg) no-repeat fixed;
-}
-
-
 .carousel-inner,.carousel,.item,.container,.fill {
   height:100%;
   width:100%;

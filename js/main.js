@@ -7,23 +7,8 @@
 
 $(document).ready(function(){
 
-    // invoke the carousel
-    //$('#myCarousel').carousel({
-    //  interval: false
-    //});
-
     // scroll slides on mouse scroll 
     $('#myCarousel').bind('mousewheel DOMMouseScroll', function(e){
-
-            // if(e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
-            //     $(this).carousel('prev');
-            // }
-            // else{
-            //     $(this).carousel('next');
-            // }
-
-
-        //});
 
         //scroll slides on swipe for touch enabled devices 
      	$("#myCarousel").on("touchstart", function(event){
@@ -42,8 +27,11 @@ $(document).ready(function(){
 
         $(".carousel").on("touchend", function(){
                 $(this).off("touchmove");
-        });
+            });
 
+        });
+    
     });
     
 });
+
