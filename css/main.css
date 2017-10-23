@@ -286,13 +286,10 @@ h1.trophy-desc {
 	height: auto;
 }
 
-.jumbotron .first{
-	background-color: #678c56;
+.jumbotron {
+    background-color: #b8d797;
 }
 
-.jumbotron .second{
-	background-color: #B8D797;
-}
 
 .div-google-play{
 	margin-top:4%;
@@ -319,6 +316,32 @@ h1.trophy-desc {
 
 /*------------------------------ Footer ----------------------------*/
 
+
 footer{
-	height: 30%;
+	min-height: 40%;
+	background-color: #678c56;
+}
+
+footer p, i.fa{
+	color: #fff; 
+}
+
+i.fa {
+    font-size: 40px;
+    margin: 4% auto 4% auto;
+    padding: 0% 1% 0% 1%;
+}
+
+.div-icons{
+	border-bottom: dashed 2px #fff;
+}
+
+.div-copyright{
+	width: 100%
+}
+
+footer p{
+	font-size: 20px;
+    font-weight: 500;
+    margin: 3%;
 }
