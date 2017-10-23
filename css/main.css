@@ -247,11 +247,12 @@ img#branch-r {
 }
 
 img.podium-img {
-    margin-top: 15%;
-}
+    margin: 13% 0% 0% -20%;
+    position: absolute;}
 
 h1.trophy-desc {
     margin: 0% 3% 0% 0%;
+    padding-top: 3%;
 }
 
 /*------------------------------ App ----------------------------*/
