@@ -7,8 +7,12 @@ html, body{
 }
 
 
-h1, h2, h3, p{
+h1, h2, h3{
 	font-family: 'Josefin Slab', serif;
+}
+
+p, .btn{
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 h1, h2, h3{
@@ -291,6 +295,9 @@ h1.trophy-desc {
     background-color: #b8d797;
 }
 
+.jumbotron-title{
+	font-weight: bold;
+}
 
 .div-google-play{
 	margin-top:4%;
@@ -300,6 +307,66 @@ h1.trophy-desc {
 	max-width: 20%;
     margin-bottom: 3%;
 }
+
+/*------------------------------ Form ----------------------------*/
+.btn{
+	font-weight: normal;
+}
+
+.modal-header, .modal-footer {
+	background-color: #B8D797;
+}
+
+.modal-desc, .modal-title{
+	color: #678c56;
+}
+
+.modal-desc{
+	font-size: 18px;
+}
+
+.form-control{
+	font-family: 'Josefin Sans', serif;
+	background-color: #678c56;
+	color:#fff;
+}
+
+#myModal ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Josefin Sans', serif;
+  color: white;
+}
+#myModal ::-moz-placeholder { /* Firefox 19+ */
+  font-family: 'Josefin Sans', serif;
+  color: #fff;
+}
+#myModal :-ms-input-placeholder { /* IE 10+ */
+  font-family: 'Josefin Sans', serif;
+  color: #fff;
+}
+#myModal :-moz-placeholder { /* Firefox 18- */
+  font-family: 'Josefin Sans', serif;
+  color: #fff;
+}
+
+.btn-custumer, .btn-custumer-secondary{
+	color:#fff;
+}
+
+.btn-custumer, .btn-custumer-secondary{
+	background-color: #678c56;	
+}
+
+.btn-custumer:hover, .btn-custumer-secondary:hover{
+	background-color: #8cb9a2;
+	color: #fff;
+}
+
+.btn-custumer-secondary{
+	
+}
+
+
+
 
 /*------------------------------ Map ----------------------------*/
 
@@ -321,13 +388,14 @@ h1.trophy-desc {
 footer{
 	min-height: 40%;
 	background-color: #678c56;
+	display: flow-root;
 }
 
 footer p, i.fa{
 	color: #fff; 
 }
 
-i.fa {
+#finishing i.fa {
     font-size: 40px;
     margin: 4% auto 4% auto;
     padding: 0% 1% 0% 1%;

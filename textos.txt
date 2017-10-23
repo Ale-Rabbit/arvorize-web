@@ -21,6 +21,9 @@ trofeus para serem colecionados e 3 níveis para serem conquistados. Ao se cadast
  parte do nível 3. Ao conquistar 101 pontos você passa para o nível 2 ganhando a função de
  trocar sementes com outras pessoas no aplicativo. Alcançando 301 pontos você pode validar 
 plantios de demais usuários e cadastrar entidades."
+Atual:
+"Com o Arvorize você pode ganhar pontos a cada plantio, troca e doação. Existem (x) 
+trofeus para serem colecionados e 3 níveis para serem conquistados."
 
 Doe!
 "Sim! Com o Arvorize você pode fazer doações de frutas. No seu bairo se encontra diversas entidades filántroficas que geralmente vivem apenas de doações das pessoas. Com a grande quantidade de frutos que uma árvore adulta pode gerar, você pode consumir e dividir com as pessoas que mais necessitam. Além de melhorar a qualidade de vida no seu bairro, a longo prazo, plantando uma árvore, ajuda-rá alguém neste momento."
