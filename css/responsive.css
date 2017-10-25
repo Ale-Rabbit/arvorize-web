@@ -148,8 +148,118 @@
 	img.podium-img{
 		margin-left: -27%;
 	}
-    /*------------------------------ App ----------------------------*/
+   
 
+}
+
+
+@media (max-width:425px) {
     
+    /*------------------------------ Intro ----------------------------*/
+
+    /* first intro */
+
+    img.phone-img-header{
+    	margin-left: -9%;
+    	position: absolute;
+    	width: 100px;
+    }
+
+    h1.header-desc{
+    	width: 300px;
+    	margin-top: 65%;
+    	margin-left: 16%;
+    }
+
+    /* second intro */
+
+    .hot-img{
+    	margin-top: 18%;
+    }
+
+    .hot-desc {
+    	margin-left: 9%;
+	}
+
+    /* third intro */
+
+    img#branch-l, img#branch-r{
+    	display: none;
+    }
+
+    .learn-img {
+    	margin-left: 5%;
+    	width: 400px;
+	}
+
+	.learn-desc {
+    	margin-top: 23%;
+    	margin-left: 24%;
+	}
+
+    /* fourth intro */
+
+    .donate-desc {
+    	margin-left: 8%;
+	}
+
+    .mao-r, .mao-l{
+    	display: none;
+    }
+
+    .fruit-img {
+    	margin-left: -41%;
+    	margin-top: 30%;
+	}
+
+
+    /* fiveth intro */
+
+    .map-div-desc {
+    	margin-top: -115%;
+   	}
+
+   	.map-div-desc{
+   		height: 100px;
+   	}
+
+    .map-img {
+    	width: 400px;
+    	margin-top: 30%;
+	}
+
+	.find-desc{
+		margin-top: 3%;
+	}
+
+	/* six intro */
+
+	h1.trophy-desc{
+		position: absolute;
+		margin: 3% 0% 0% 0%;
+	}
+
+	.trophy-img {
+    	width: 300px;
+    	margin-top: 56%;
+	}
+
+	img.podium-img{
+		width: 300px;
+		margin-left: -69%;
+    	margin-top: 25%;
+	}
+
+
+	/*------------------------------ App ----------------------------*/
+	
+	.img-google-play {
+    	width: 60%;
+	}
+
+
+
+   
+   
 
 }
