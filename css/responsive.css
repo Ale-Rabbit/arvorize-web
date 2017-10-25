@@ -78,17 +78,76 @@
     
     /*------------------------------ Intro ----------------------------*/
 
+    /* first intro */
+
+
+
+    img.phone-img-header{
+    	margin-left: 5%;
+    }
+
+    h1.header-desc{
+    	width: 450px;
+    	margin-top:22%; 
+    }
+
     /* second intro */
 
+    .hot-img{
+    	width: 400px;
+    	margin-top: -18%;
+    	margin-right: 3%;
+    }
 
+    .hot-desc{
+    	margin-left: 0%;
+    	width: 350px;
+    }
+
+    /* third intro */
+
+    img#branch-l, img#branch-r{
+    	width: 350px;
+    }
+
+    .learn-img{
+    	margin-left: 22%;
+    	width: 450px;
+    }
+
+    .learn-desc{
+    	margin-top: 16%;
+    	margin-left: 35%;
+    	width: 250px;
+    }
     /* fourth intro */
 
+    .mao-r, .mao-l {
+    	width: 300px;
+	}
 
+	.fruit-img {
+    	margin-left: -42%;
+    	width: 350px;
+	}
+
+	.donate-desc {
+    	margin-left: 29%;
+	}
 
     /* fiveth intro */
 
-   
 
+	/* six intro */
+   
+	.trophy-img {
+    	width: 350px;
+    	margin-top: 10%;
+	}
+
+	img.podium-img{
+		margin-left: -27%;
+	}
     /*------------------------------ App ----------------------------*/
 
     
