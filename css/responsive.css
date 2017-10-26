@@ -279,3 +279,142 @@
    
 
 }
+
+@media (max-width:375px) {
+    
+    /*------------------------------ Intro ----------------------------*/
+
+    /* first intro */
+
+    img.phone-img-header{
+    	margin-left: -18%;
+    	width: 150px;
+    }
+
+    h1.header-desc{
+        margin-top: 85%;
+    	margin-left: 11%;
+    }
+
+    /* second intro */
+
+    .hot-img{
+    	width: 350px;
+    }
+
+    .hot-desc {
+    	margin-left: 4%;
+	}
+
+    /* third intro */
+
+    .learn-img{
+    	margin-left: 1%;
+    }
+
+    .learn-desc {
+    	margin-top: 24%;
+    	margin-left: 19%;
+	}
+
+    /* fourth intro */
+
+    .fruit-img{
+    	width: 300px;
+    	margin-left: -39%; 
+    }
+
+    .donate-desc {
+    	margin-left: 5%;
+	}
+
+    /* fiveth intro */
+
+    .map-img{
+    	width: 350px;
+    	margin-top: 50%;
+    }
+
+    .map-div-desc{
+    	margin-top: -125%;
+    }
+
+	/* six intro */
+
+	.trophy-img{
+		width: 250px;
+	}
+
+	img.podium-img{
+		display: none;
+	}
+
+	h1.trophy-desc{
+		margin: 20% 0% 0% 0%;
+	}
+
+	/*------------------------------ App ----------------------------*/
+
+	.img-google-play{
+		margin-bottom: 8%;
+		width: 80%;
+	} 
+   
+
+}
+
+@media (max-width:375px) {
+    
+    /*------------------------------ Intro ----------------------------*/
+
+    /* first intro */
+
+    img.phone-img-header{
+    	margin-left: -21%;
+    }
+
+    h1.header-desc {
+    	margin-top: 100%;
+    	margin-left: 5%;
+	}
+
+    /* second intro */
+
+ 	.hot-desc{
+ 		width: 300px;
+ 		margin-left: 3%;
+ 	}
+
+    .hot-img {
+    	width: 300px;
+	}
+
+    /* third intro */
+
+
+    .learn-img{
+        margin-top: 47%;
+    	margin-left: 18%;
+    	width: 210px;
+    }
+
+    /* fourth intro */
+
+    .fruit-img{
+    	margin-left: -46%;
+    }
+
+    /* fiveth intro */
+
+    .map-img{
+    	width: 300px;
+    }
+
+
+	/* six intro */
+
+	/*------------------------------ App ----------------------------*/
+ 
+   
+
+}
