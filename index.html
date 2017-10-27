@@ -170,30 +170,32 @@
 	      <div class="modal-body">
 	      		<p class="modal-desc">Arvorize esta sendo desenvolvido. Quando estiver diponível na Google Play enviaremos um e-mail avisando para você</p> 
 	        	
-	        	<form>
-	        		<div class="form-group">
-					    <label for="exampleInputEmail1"></i></label>
-					    <input type="nome" class="form-control" id="exampleInputEmail1" aria-describedby="namesHelp" placeholder="Nome">
+	        	<form id="ajax-form" method="post" action="get_content()">
+	        		<div class="field form-group">
+					    <label for="name"></label>
+					    <input type="text" id="name" class="form-control" aria-describedby="namesHelp" placeholder="Nome" name="name" required>
 				  	</div>
 
-				  <div class="form-group">
-				    <label for="exampleInputEmail1"></label>
-				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-				  </div>
+				  	<div class="field form-group">
+				    	<label for="email"></label>
+				    	<input type="email" id="email" class="form-control" aria-describedby="emailHelp" placeholder="Email" name="email" required>
+				    </div>
 
-				  <div class="form-group">
-				    <label for="exampleTextarea"></label>
-				    <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Sugestão"></textarea>
-				  </div>
+				  	<div class="field form-group">
+				    	<label for="description"></label>
+				    	<textarea id="description" class="form-control" rows="3" placeholder="Sugestão" name="description" required></textarea>
+				  	</div>
+
+				  	<div class="field modal-footer">
+	        			<button type="submit" class="btn btn-custumer">Enviar</button>
+	        			<button type="cancel" class="btn btn-custumer-secondary" data-dismiss="modal">Cancelar</button>
+	      			</div>
+
 				</form>
 
-
 	      </div>
 
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-custumer">Enviar</button>
-	        <button type="button" class="btn btn-custumer-secondary" data-dismiss="modal">Cancelar</button>
-	      </div>
+	      
 	    </div>
 	  </div>
 </div>

@@ -1,10 +1,3 @@
-// $(function() {
-//   $('li[data-target*=#]').on('click', function(e) {
-//     e.preventDefault();
-//     $('html, body').animate({ scrollTop: $($(this).attr('data-target')).offset().top}, 500, 'linear');
-//   });
-// });
-
 $(document).ready(function(){
 
     // scroll slides on mouse scroll 
